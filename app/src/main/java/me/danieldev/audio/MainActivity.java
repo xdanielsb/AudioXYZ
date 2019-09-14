@@ -18,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
         playSong = findViewById(R.id.btnPlay);
 
-       // final MediaPlayer mp = MediaPlayer.create(this, R.raw.)
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.beep1);
 
         playSong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                mp.start();
             }
         });
 
