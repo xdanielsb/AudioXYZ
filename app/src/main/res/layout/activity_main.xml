@@ -20,7 +20,7 @@
             android:id="@+id/lblOrientation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ORIENTATION"
+            android:text="Sound Direction"
             android:textSize="30sp"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
@@ -117,8 +117,9 @@
 
         <Button
             android:id="@+id/btnPlay"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:gravity="center_horizontal"
             android:text="Play" />
